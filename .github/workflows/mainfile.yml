@@ -8,10 +8,10 @@
 #---------------------------------------------------------------------
 name: CI-CD-Pipeline-to-AWS-ElasticBeanstalk
 env:
-  EB_PACKAGE_S3_BUCKET_NAME : "flask-github"
+  EB_PACKAGE_S3_BUCKET_NAME : "flash-github"
   EB_APPLICATION_NAME       : "sampleone"
   EB_ENVIRONMENT_NAME       : "sampleone-env"
-  DEPLOY_PACKAGE_NAME       : "flask-github-${{ github.sha }}.zip"
+  DEPLOY_PACKAGE_NAME       : "flash-github-${{ github.sha }}.zip"
   AWS_REGION_NAME           : "us-east-1"
 
 on: 
